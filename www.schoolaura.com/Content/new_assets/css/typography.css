@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&amp;display=swap");
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.main-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #0d1028;
+}
+
+.main-heading span {
+  color: #ff5202;
+}
+
+@media screen and (max-width: 1025px) {
+  .main-heading {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-heading {
+    font-size: 26px !important;
+  }
+}
+
+.sub-heading {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.01;
+  color: #0d1028;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #666666;
+}
+/*# sourceMappingURL=typography.css.map */
